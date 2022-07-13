@@ -1,0 +1,21 @@
+{
+  "name": "zndomain/repository-drivers",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zn Developer",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "ZnDomain\\RepositoryDrivers\\": "src",
+      "ZnDomain\\RepositoryDrivers\\Tests\\": "tests"
+    }
+  }
+}
